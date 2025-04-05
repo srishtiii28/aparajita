@@ -1,16 +1,27 @@
-# aparajita
+# Aparajita – Women Safety System
 
-A new Flutter project.
+Aparajita is an AI-powered women safety system built using Flutter, Firebase, and geolocation services. It enables emergency SOS alerts, real-time location tracking, and future features like audio-video evidence capture and smart ML-based threat detection.
 
-## Getting Started
+##  Features
 
-This project is a starting point for a Flutter application.
+-  **Emergency SOS Alert** with location
+-  **Real-time Location Tracking** using Google Maps
+-  **Secure Data Storage** with Firebase
+-  Future: Audio/Video Evidence Capture (Coming Soon)
+-  Future: ML-Powered Threat Prediction & Behavioral Pattern Analysis
 
-A few resources to get you started if this is your first Flutter project:
+##  Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Layer         | Technology                      |
+|--------------|----------------------------------|
+| Frontend     | Flutter                          |
+| Location     | Google Maps, Geolocator          |
+| Backend      | Firebase Firestore               |
+| Notifications| Firebase Cloud Messaging (FCM)   |
+| Auth (Planned) | Firebase Auth                  |
+| ML (Planned) | TensorFlow Lite / Custom Models  |
+| Storage      | Firebase Storage (for evidence)  |
+| Dev Tools    | Project IDX                      |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
